@@ -1,11 +1,9 @@
-import './App.css'
+import React from 'react'
 import Hello from './components/Hello'
-
-function App() {
+import './App.css'
+const App = () => {
   return (
-    <>
-      <Hello/>
-    </>
+    <Hello/>
   )
 }
 
